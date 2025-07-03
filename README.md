@@ -73,6 +73,9 @@ Edit
 - Add more historical data (before 2010)
 - Automate data updates (CBN/NBS APIs)
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://nigerian-economy-dashboard.onrender.com/)
+
+
 ---
 
 > Built with ❤️ by [Oklogo Samuel] — feel free to fork, star, or suggest improvements!
