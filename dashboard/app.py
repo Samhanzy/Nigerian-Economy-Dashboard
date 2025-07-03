@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import os
 
-df = pd.read_csv('../data/cleaned_macro_data.csv')
+df = pd.read_csv('/data/cleaned_macro_data.csv')
 
 app = dash.Dash(__name__)
 app.title = "Nigeria Economic Dashboard"
