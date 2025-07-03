@@ -36,5 +36,5 @@ def update_chart(selected_indicator):
     return fig
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT, 8050'))
+    port = int(os.environ.get('PORT', 8050))
     app.run(debug=True, port=port, hosts='0.0.0.0')
