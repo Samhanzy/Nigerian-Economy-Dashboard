@@ -3,6 +3,7 @@ import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import plotly.express as px
+import os
 
 df = pd.read_csv('../data/cleaned_macro_data.csv')
 
@@ -35,4 +36,5 @@ def update_chart(selected_indicator):
     return fig
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT, 8050'))
+    app.run(debug=True, port=port, hosts='0.0.0.0')
