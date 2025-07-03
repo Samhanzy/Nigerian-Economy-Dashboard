@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: nigeria-economy-dashboard
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python dashboard/app.py
+    envVars:
+      - key: PORT
+        value: 10000
