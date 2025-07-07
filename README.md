@@ -52,9 +52,6 @@ nigerian-economy-dashboard/
 ├── screenshots/ ← Chart images
 └── README.md
 
-yaml
-Copy
-Edit
 
 ---
 
